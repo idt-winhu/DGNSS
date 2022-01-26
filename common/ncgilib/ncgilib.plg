@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ncgilib - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPD7.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fp"Debug/ncgilib.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\APEZ\WebLib\common\nCgiLib.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPD7.tmp" 
+Creating command line "link.exe -lib /nologo /out:"Debug\ncgilib.lib"  .\Debug\nCgiLib.obj "
+<h3>Output Window</h3>
+Compiling...
+nCgiLib.c
+Creating library...
+
+
+
+<h3>Results</h3>
+ncgilib.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

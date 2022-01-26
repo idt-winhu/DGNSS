@@ -1,0 +1,1 @@
+test.exe  140.121.130.145,2101,test,testNTRIP,admin,password,25.047298,121.33918,response.txt

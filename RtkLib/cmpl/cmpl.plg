@@ -1,0 +1,139 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: cmpl - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\­J¼s·u\AppData\Local\Temp\RSPCECC.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /D "ENAGLO" /D "ENAGAL" /D "ENAQZS" /D "ENACMP" /D "ENALEO" /FR"Release/" /Fp"Release/cmpl.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\DGNSS\RtkLib\convkml.c"
+"D:\DGNSS\RtkLib\datum.c"
+"D:\DGNSS\RtkLib\download.c"
+"D:\DGNSS\RtkLib\ephemeris.c"
+"D:\DGNSS\RtkLib\geoid.c"
+"D:\DGNSS\RtkLib\ionex.c"
+"D:\DGNSS\RtkLib\lambda.c"
+"D:\DGNSS\RtkLib\options.c"
+"D:\DGNSS\RtkLib\pntpos.c"
+"D:\DGNSS\RtkLib\postpos.c"
+"D:\DGNSS\RtkLib\ppp.c"
+"D:\DGNSS\RtkLib\ppp_ar.c"
+"D:\DGNSS\RtkLib\preceph.c"
+"D:\DGNSS\RtkLib\qzslex.c"
+"D:\DGNSS\RtkLib\rcvraw.c"
+"D:\DGNSS\RtkLib\rinex.c"
+"D:\DGNSS\RtkLib\rtcm.c"
+"D:\DGNSS\RtkLib\rtcm2.c"
+"D:\DGNSS\RtkLib\rtcm3.c"
+"D:\DGNSS\RtkLib\rtcm3e.c"
+"D:\DGNSS\RtkLib\rtkcmn.c"
+"D:\DGNSS\RtkLib\rtkpos.c"
+"D:\DGNSS\RtkLib\sbas.c"
+"D:\DGNSS\RtkLib\solution.c"
+"D:\DGNSS\RtkLib\tle.c"
+]
+Creating command line "cl.exe @"C:\Users\­J¼s·u\AppData\Local\Temp\RSPCECC.tmp"" 
+Creating temporary file "C:\Users\­J¼s·u\AppData\Local\Temp\RSPCEDD.tmp" with contents
+[
+/nologo /out:"Release\RtkLib.lib" 
+.\Release\convkml.obj
+.\Release\datum.obj
+.\Release\download.obj
+.\Release\ephemeris.obj
+.\Release\geoid.obj
+.\Release\ionex.obj
+.\Release\lambda.obj
+.\Release\options.obj
+.\Release\pntpos.obj
+.\Release\postpos.obj
+.\Release\ppp.obj
+.\Release\ppp_ar.obj
+.\Release\preceph.obj
+.\Release\qzslex.obj
+.\Release\rcvraw.obj
+.\Release\rinex.obj
+.\Release\rtcm.obj
+.\Release\rtcm2.obj
+.\Release\rtcm3.obj
+.\Release\rtcm3e.obj
+.\Release\rtkcmn.obj
+.\Release\rtkpos.obj
+.\Release\sbas.obj
+.\Release\solution.obj
+.\Release\tle.obj
+]
+Creating command line "link.exe -lib @"C:\Users\­J¼s·u\AppData\Local\Temp\RSPCEDD.tmp""
+<h3>Output Window</h3>
+Compiling...
+convkml.c
+datum.c
+download.c
+D:\DGNSS\RtkLib\download.c(322) : warning C4101: 'stat' : unreferenced local variable
+D:\DGNSS\RtkLib\download.c(505) : warning C4101: 'remot_p' : unreferenced local variable
+D:\DGNSS\RtkLib\download.c(776) : warning C4101: 'tow' : unreferenced local variable
+ephemeris.c
+geoid.c
+ionex.c
+lambda.c
+options.c
+pntpos.c
+postpos.c
+ppp.c
+ppp_ar.c
+preceph.c
+qzslex.c
+rcvraw.c
+rinex.c
+rtcm.c
+rtcm2.c
+rtcm3.c
+rtcm3e.c
+rtkcmn.c
+D:\DGNSS\RtkLib\rtcm3e.c(1805) : warning C4761: integral size mismatch in argument; conversion supplied
+rtkpos.c
+sbas.c
+solution.c
+tle.c
+Creating library...
+Creating temporary file "C:\Users\­J¼s·u\AppData\Local\Temp\RSP93E3.tmp" with contents
+[
+/nologo /o"Release/cmpl.bsc" 
+.\Release\convkml.sbr
+.\Release\datum.sbr
+.\Release\download.sbr
+.\Release\ephemeris.sbr
+.\Release\geoid.sbr
+.\Release\ionex.sbr
+.\Release\lambda.sbr
+.\Release\options.sbr
+.\Release\pntpos.sbr
+.\Release\postpos.sbr
+.\Release\ppp.sbr
+.\Release\ppp_ar.sbr
+.\Release\preceph.sbr
+.\Release\qzslex.sbr
+.\Release\rcvraw.sbr
+.\Release\rinex.sbr
+.\Release\rtcm.sbr
+.\Release\rtcm2.sbr
+.\Release\rtcm3.sbr
+.\Release\rtcm3e.sbr
+.\Release\rtkcmn.sbr
+.\Release\rtkpos.sbr
+.\Release\sbas.sbr
+.\Release\solution.sbr
+.\Release\tle.sbr]
+Creating command line "bscmake.exe @"C:\Users\­J¼s·u\AppData\Local\Temp\RSP93E3.tmp""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+RtkLib.lib - 0 error(s), 4 warning(s)
+</pre>
+</body>
+</html>

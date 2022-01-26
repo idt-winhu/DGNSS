@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: cmpl - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Winhu\AppData\Local\Temp\RSP70B8.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /D "ENAGLO" /D "ENAGAL" /D "ENAQZS" /D "ENACMP" /D "ENALEO" /Fp"Release/cmpl.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\DGNSS\HuNtrip\huNtrip1.c"
+]
+Creating command line "cl.exe @C:\Users\Winhu\AppData\Local\Temp\RSP70B8.tmp" 
+Creating command line "link.exe -lib /nologo /out:"Release\huNtrip.lib"  .\Release\huNtrip.obj .\Release\huNtrip1.obj "
+<h3>Output Window</h3>
+Compiling...
+huNtrip1.c
+D:\DGNSS\HuNtrip\huNtrip1.c(169) : warning C4029: declared formal parameter list different from definition
+D:\DGNSS\HuNtrip\huNtrip1.c(293) : warning C4020: 'decode_rtcm2_1' : too many actual parameters
+D:\DGNSS\HuNtrip\huNtrip1.c(336) : warning C4244: 'function' : conversion from 'double ' to 'int ', possible loss of data
+D:\DGNSS\HuNtrip\huNtrip1.c(336) : warning C4244: 'function' : conversion from 'double ' to 'int ', possible loss of data
+D:\DGNSS\HuNtrip\huNtrip1.c(336) : warning C4761: integral size mismatch in argument; conversion supplied
+D:\DGNSS\HuNtrip\huNtrip1.c(336) : warning C4761: integral size mismatch in argument; conversion supplied
+Creating library...
+
+
+
+<h3>Results</h3>
+huNtrip.lib - 0 error(s), 6 warning(s)
+</pre>
+</body>
+</html>

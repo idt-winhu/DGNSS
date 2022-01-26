@@ -1,0 +1,1 @@
+test.exe  210.241.63.193,81,DGNSS,testNTRIP,IDT01,idt26585858,25.047298,121.33918,response.txt
