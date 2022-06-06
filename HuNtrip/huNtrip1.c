@@ -1,7 +1,7 @@
 
 
 #include <windows.h>
-#include "D:\APEZ\WebLib\RtkLib\RtkLib.h"
+#include "D:\DGNSS\RtkLib\RtkLib.h"
 
 /* function prototypes -------------------------------------------------------*/
 static int decode_rtcm2_1(rtcm_t *rtcm);

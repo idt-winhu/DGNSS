@@ -18,10 +18,10 @@
 #include <winsock2.h>
 #endif
 
-#include "d:\apez\weblib\common\publ.h"
+#include "d:\DGNSS\common\publ.h"
 #include "huNtrip.h"
 
-#include "D:\APEZ\WebLib\RtkLib\RtkLib.h"
+#include "D:\DGNSS\RtkLib\RtkLib.h"
 
 
 #define MAX_READBUFSIZE 10000

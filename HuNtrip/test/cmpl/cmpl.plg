@@ -6,23 +6,23 @@
 --------------------Configuration: cmpl - Win32 Release--------------------
 </h3>
 <h3>Command Lines</h3>
-Creating temporary file "C:\Users\Winhu\AppData\Local\Temp\RSP2BB8.tmp" with contents
+Creating temporary file "C:\Users\coaesri\AppData\Local\Temp\RSPF5C8.tmp" with contents
 [
 /nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/cmpl.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
 "D:\DGNSS\HuNtrip\test\test.c"
 ]
-Creating command line "cl.exe @C:\Users\Winhu\AppData\Local\Temp\RSP2BB8.tmp" 
-Creating temporary file "C:\Users\Winhu\AppData\Local\Temp\RSP2BB9.tmp" with contents
+Creating command line "cl.exe @C:\Users\coaesri\AppData\Local\Temp\RSPF5C8.tmp" 
+Creating temporary file "C:\Users\coaesri\AppData\Local\Temp\RSPF5C9.tmp" with contents
 [
 kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/test.pdb" /machine:I386 /out:"../test.exe" 
 .\Release\test.obj
-C:\develop\VC98\Lib\WSOCK32.LIB
 ..\..\cmpl\Release\huNtrip.lib
 ..\..\..\common\publ\Release\publ.lib
 ..\..\..\RtkLib\cmpl\Release\RtkLib.lib
-C:\DEVELOP\VC98\Lib\WINMM.LIB
+C:\vc6\Lib\WSOCK32.LIB
+C:\vc6\Lib\WINMM.LIB
 ]
-Creating command line "link.exe @C:\Users\Winhu\AppData\Local\Temp\RSP2BB9.tmp"
+Creating command line "link.exe @C:\Users\coaesri\AppData\Local\Temp\RSPF5C9.tmp"
 <h3>Output Window</h3>
 Compiling...
 test.c

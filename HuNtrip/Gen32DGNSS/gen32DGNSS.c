@@ -10,10 +10,10 @@
 #include <stdio.h>
 #include <string.h>
 
-#include "D:\apez\weblib\common\publ.h"
-#include "D:\APEZ\WebLib\RtkLib\RtkLib.h"
-#include "D:\APEZ\WebLib\HuNtrip\huNtrip.h"
-#include "D:\APEZ\WebLib\HuNtrip\huNtrip1.h"
+#include "D:\DGNSS\common\publ.h"
+#include "D:\DGNSS\RtkLib\RtkLib.h"
+#include "D:\DGNSS\HuNtrip\huNtrip.h"
+#include "D:\DGNSS\HuNtrip\huNtrip1.h"
 
 //////////////////////////////////////////////////////////////////////
 // 系統變數

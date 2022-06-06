@@ -98,7 +98,7 @@ SOURCE=..\gen32DGNSS.c
 # End Source File
 # Begin Source File
 
-SOURCE=C:\develop\VC98\Lib\WSOCK32.LIB
+SOURCE=C:\vc6\Lib\WSOCK32.LIB
 # End Source File
 # Begin Source File
 
@@ -114,7 +114,7 @@ SOURCE=D:\DGNSS\RtkLib\cmpl\Release\RtkLib.lib
 # End Source File
 # Begin Source File
 
-SOURCE=C:\DEVELOP\VC98\Lib\WINMM.LIB
+SOURCE=C:\vc6\Lib\WINMM.LIB
 # End Source File
 # End Group
 # Begin Group "Header Files"
